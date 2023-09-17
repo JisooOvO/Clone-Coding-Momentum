@@ -94,4 +94,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# API_KEY
+API_KEY.js
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode

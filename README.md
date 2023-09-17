@@ -9,8 +9,9 @@
 - [x] LOGIN 
 - [x] CLOCK
 - [x] QUOTES AND BACKGROUND
-- [ ] TO DO LIST
-- [ ] WEATHER
+- [x] TO DO LIST
+- [x] WEATHER
+- [ ] CSS
 
 ## Reference
 - [노마드 코더](https://nomadcoders.co/)
