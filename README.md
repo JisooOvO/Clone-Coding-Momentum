@@ -14,6 +14,7 @@
 - [x] CSS
 
 ## Project result
+<a href="https://jisooovo.github.io/Momentum/">Go to page</a>
 <img src="intro.PNG">
 
 ## What I learned
