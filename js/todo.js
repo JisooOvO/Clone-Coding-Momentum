@@ -18,11 +18,14 @@ function handleToDoSubmit(event){
         text : newTodo,
         id : Date.now(), 
     };
-    toDos.push(newTodoObj);
-    saveToDos();
-
-    // 화면 출력
-    paintToDo(newTodoObj);
+    if(toDos.length < 10){
+        toDos.push(newTodoObj);
+        saveToDos();
+        // 화면 출력
+        paintToDo(newTodoObj);
+    }else{
+        alert("You can register up to 10");
+    }
 }
 
 /** ToDo 를 화면에 출력하는 함수 */

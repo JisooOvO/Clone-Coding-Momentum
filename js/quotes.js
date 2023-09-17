@@ -48,5 +48,5 @@ const quotes = [
   /** 랜덤으로 명언 저장 */
 const todaysQuotes = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerText = todaysQuotes.quote;
-author.innerText = todaysQuotes.author;
+quote.innerText = `"${todaysQuotes.quote}"`;
+author.innerText = `- ${todaysQuotes.author}`;
