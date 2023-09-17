@@ -6,13 +6,13 @@
 - VisualStudioCode
 
 ## Todo
-- [ ] LOGIN 
-- [ ] CLOCK
-- [ ] QUOTES AND BACKGROUND
+- [x] LOGIN 
+- [x] CLOCK
+- [x] QUOTES AND BACKGROUND
 - [ ] TO DO LIST
 - [ ] WEATHER
 
 ## Reference
 - [노마드 코더](https://nomadcoders.co/)
 
-- [Toptal](https://www.toptal.com/developers/gitignore)
+- [Toptal](https://www.toptal.com/developers/gitignore) 
