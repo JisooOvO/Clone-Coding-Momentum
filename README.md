@@ -30,7 +30,7 @@
         6. navigator.geolocation.getCurrentPosition() 메서드를 이용하면 현재 위치 정보를 알 수 있다.
         7. 자바스크립트 모든 파일에서 사용될 전역 변수는 import/export 기능을 이용하여 사용 가능하다.
             7-1. 단 사용될 스크립트의 type="module"로 지정해야한다.
-        8. API 같은 민감정보는 gitignore로 파일 제외한다.
+        8. 반응형 CSS 설정을 잘하자
 
 ## Reference
 - [노마드 코더](https://nomadcoders.co/)
