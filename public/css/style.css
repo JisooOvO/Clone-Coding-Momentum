@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins&display=swap');
+.hidden{
+    display: none;
+}
+
+/* body */
+body{
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top : 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+/* clock */
+#clock{
+    width: 50vw;
+    position: absolute;
+    top : 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+
+/* greeting */
+#greeting{
+    margin: 0;
+    width: 20vw;
+    position: absolute;
+    top: 48%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+}
+
+/* quote */
+#quote{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#quote span{
+    display: block;
+}
+
+/* weather */
+#weather{
+    width: 15vw;
+    text-align: end;
+    position: absolute;
+    top : 1%;
+    right: 1%;
+}
+
+/* login-form */
+#login-form{
+    width: 30vw;
+    position: absolute;
+    top : 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* input */
+input{
+    width: 18vw;
+    height: 3vh;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 1.5rem;
+    color: white;
+
+    padding: 0;
+}
+
+input[type=submit]{
+    width: 8vw;
+    height: 3vh;
+    font-weight: 700;
+    background-color: #eee;
+}
+
+input::placeholder{
+    color: white;
+    padding-left: 4%;
+    font-size: 1.5rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+/* todo-form */
+#todo-form{
+    width: 30vw;
+    position: absolute;
+    top : 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#todo-form input{
+    width: 30vw;
+
+}
+
+/* todo-list */
+#todo-list{
+    width: 30vw;
+    height: 28vh;
+    position: absolute;
+    top : 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 1.5rem;
+    text-align: start;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    width: 30vw;
+    margin : auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+button{
+    background-color: transparent;
+    border: 0px;
+}
+
+@media (max-width: 1280px){
+  #clock{
+    font-size: 6rem;
+    width: 60vw;
+  }
+  #weather{
+    font-size: 0.5rem;
+    width: 40vw;
+  }
+  #login-form{
+    width: 70vw;
+    top: 48%;
+  }
+  input{
+    width: 35vw;
+    font-size: 1rem;
+  }
+  input::placeholder{
+    font-size: 1rem;
+  }
+  input[type=submit]{
+    width: 15%;
+    font-size: 0.5rem;
+  }
+  #todo-form{
+    width: 55vw;
+    top : 53%
+  }
+  #todo-form input{
+    width: 55vw;
+  }
+  #quote{
+    font-size: 0.5rem; 
+    width: 100vw;
+  }
+  #greeting{
+    font-size: 1.2rem;
+    width: 40vw;
+    top: 48%;
+  }
+  #todo-list{
+    width: 55vw;
+    height: 25vh;
+    top : 68%;
+  }
+  li{
+    font-size: 0.9rem;
+    width: 55vw;
+  }
+}
+
+@media (max-width: 480px) {
+  #clock{
+    font-size: 3rem;
+    width: 60vw;
+  }
+  #weather{
+    font-size: 0.5rem;
+    width: 40vw;
+  }
+  #login-form{
+    width: 70vw;
+    top: 45%;
+  }
+  input{
+    width: 35vw;
+    font-size: 0.7rem;
+  }
+  input::placeholder{
+    font-size: 0.7rem;
+  }
+  input[type=submit]{
+    width: 20%;
+    font-size: 0.5rem;
+  }
+  #todo-form{
+    width: 55vw;
+    top : 50%
+  }
+  #todo-form input{
+    width: 55vw;
+  }
+  #quote{
+    font-size: 0.5rem; 
+    width: 100vw;
+  }
+  #greeting{
+    font-size: 1rem;
+    width: 40vw;
+    top: 45%;
+  }
+  #todo-list{
+    width: 55vw;
+    height: 25vh;
+    top : 67%;
+  }
+  li{
+    font-size: 0.8rem;
+    width: 55vw;
+  }
+  }
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}

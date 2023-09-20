@@ -4,6 +4,8 @@
 ## 개발 환경
 - Chrome
 - VisualStudioCode
+- NodeJS
+- firebase
 
 ## Todo
 - [x] LOGIN 
@@ -14,7 +16,7 @@
 - [x] CSS
 
 ## Project result
-<a href="https://jisooovo.github.io/Momentum/">Go to page</a>
+<a href="https://momentum-njs0921.web.app/">Go to page</a>
 <img src="intro.PNG">
 
 ## What I learned
